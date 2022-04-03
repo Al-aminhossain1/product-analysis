@@ -6,3 +6,8 @@
     text-decoration: none;
     margin: 20px;
 }
+
+.header a:hover {
+    color: orange;
+    font-weight: 700;
+}

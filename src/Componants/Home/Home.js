@@ -2,8 +2,12 @@ import React from 'react';
 import image from './hotel.jpg'
 import './Home.css'
 import { Link } from 'react-router-dom';
+import useReview from '../../hooks/UseReview';
+import HomeReview from '../HomeReview/HomeReview';
+
 
 const Home = () => {
+    const [review, setReview] = useReview()
     return (
         <div >
             <div className='home-container'>
@@ -19,6 +23,7 @@ const Home = () => {
                         At Hotel Water Blue Inn guests are welcome to use a hot tub.
 
                         A car rental service is available at the accommodation</p>
+                    <button>Live demo</button>
                 </div>
                 <div className='half-width'>
                     <img src={image} alt="" />
@@ -26,6 +31,13 @@ const Home = () => {
             </div>
             <div className='show-review'>
                 <h1>Coustomer Reviews(3)</h1>
+                <div className='home-review-container'>
+                    {
+                        review.slice(0, 3).map(reviewitem => <HomeReview
+                            review={reviewitem}
+                        ></HomeReview>)
+                    }
+                </div>
 
 
                 <Link to='/review'>See All Reviws</Link>

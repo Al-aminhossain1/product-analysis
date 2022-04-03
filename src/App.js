@@ -11,7 +11,6 @@ import NotFound from './Componants/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
-      <h1>Wellcome to Hotel Water Blue Inn</h1>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
