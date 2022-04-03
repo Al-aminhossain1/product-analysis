@@ -1,0 +1,9 @@
+.dashboard {
+    display: flex;
+    margin: 50px;
+    padding: 70px;
+}
+
+.pie-chart {
+    padding-left: 150px;
+}
