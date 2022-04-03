@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    margin: 30px;
+
+}
+
+.half-width {
+    width: 47%;
+}
+
+.heading {
+    margin-top: 50px;
+
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading p {
+    font-size: large;
+}
+
+.half-width img {
+    width: 100%;
+    padding: 40px;
+
+}
+
+.show-review {
+    margin: 70px 0;
+}
