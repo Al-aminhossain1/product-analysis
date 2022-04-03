@@ -24,7 +24,12 @@ const Home = () => {
                     <img src={image} alt="" />
                 </div>
             </div>
+            <div className='show-review'>
+                <h1>Coustomer Reviews(3)</h1>
 
+
+                <Link to='/review'>See All Reviws</Link>
+            </div>
         </div>
     );
 };
