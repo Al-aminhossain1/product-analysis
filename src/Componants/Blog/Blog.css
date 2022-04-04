@@ -1,0 +1,8 @@
+.blog-container {
+    margin: 80px 40px;
+    padding: 30px;
+}
+
+.blog-container p {
+    text-align: left;
+}
