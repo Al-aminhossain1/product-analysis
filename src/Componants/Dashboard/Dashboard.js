@@ -43,23 +43,21 @@ const Dashboard = () => {
     ];
 
     const data01 = [
-        { month: 'Mar', sell: 241 },
-        { month: 'Apr', sell: 423 },
-        { month: 'May', sell: 726 },
-        { month: 'Jun', sell: 529 },
+        { month: 'Mar', revenue: 10402 },
+        { month: 'Apr', revenue: 24500 },
+        { month: 'May', revenue: 67010 },
+        { month: 'Jun', revenue: 40405 },
     ];
     const data02 = [
-        { month: 'Jan', sell: 100 },
-        { month: 'Feb', sell: 300 },
-        { month: 'Mar', sell: 100 },
-        { month: 'Apr', sell: 80 },
-        { month: 'May', sell: 40 },
-        { month: 'Jun', sell: 30 },
-        { month: 'Jul', sell: 50 },
-        { month: 'Aug', sell: 100 },
-        { month: 'Sep', sell: 200 },
-        { month: 'Act', sell: 150 },
-        { month: 'Dec', sell: 50 }
+        { month: 'Jan', revenue: 10401 },
+        { month: 'Feb', revenue: 24500 },
+        { month: 'Mar', revenue: 67010 },
+        { month: 'Apr', revenue: 40405 },
+        { month: 'May', revenue: 50900 },
+        { month: 'Jun', revenue: 61000 },
+        { month: 'Jul', revenue: 50055 },
+        { month: 'Aug', revenue: 54546 },
+
     ];
     return (
         <div className='dashboard'>
@@ -79,8 +77,8 @@ const Dashboard = () => {
 
             <div className='pie-chart'>
                 <PieChart width={400} height={400}>
-                    <Pie data={data01} dataKey="sell" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-                    <Pie data={data02} dataKey="sell" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+                    <Pie data={data01} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={data02} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
                 </PieChart>
                 <h4>Pie Chart</h4>
             </div>
