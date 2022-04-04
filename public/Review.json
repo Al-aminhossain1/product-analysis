@@ -2,37 +2,43 @@
     {
         "id": 1,
         "name": "Shahen",
-        "review": " this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "image": "https://png.pngtree.com/png-clipart/20190924/original/pngtree-vector-user-young-boy-avatar-icon-png-image_4827810.jpg",
+        "review": " The decoration is awesome and clean, Beautiful Fantastic Food Menu Staff are very friendly best, i liked everything ",
         "rating": "5 star"
     },
     {
         "id": 2,
         "name": "Shihab",
-        "review": "this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKZqn8KWFWeKBS07nk_I9-J1HVP6Sg5B197D2cDfoGOneGeGqMJ66UWmKvaVdW9amtMm8&usqp=CAU",
+        "review": " Cleanliness was good and being thoughtful to provide a bedside fan. There were also lockers at the bottom for you to store your luggage.",
         "rating": " 4.7 star"
     },
     {
         "id": 3,
-        "name": "Alamin",
-        "review": "this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "name": "Al amin",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Eju4JyFV2CqXM6JZKjadS3J1QudZQv_AZQW0dES0OauQqDJkluHpmf8pF4SIdZRUQhM&usqp=CAU",
+        "review": "Location was the best. Close to the train station which was so convenient. Breakfast is always great. Good selection of food. The room was perfect with two double beds and a view of Holyrood Park. The staff was very helpful.",
         "rating": "4.5 star"
     },
     {
         "id": 4,
         "name": "Shakib",
-        "review": "this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbBMwRJfFeRL23d-4MB-yq_6NyJFUw7zprYQ&usqp=CAU",
+        "review": "I booked the Sea front Deluxe. An I enjoyed the Sea View from the balcony. The view I enjoyed the most & also their service is excellent.",
         "rating": "5 star"
     },
     {
         "id": 5,
         "name": "Rakib",
-        "review": "this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "image": "https://cdn3.vectorstock.com/i/1000x1000/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg",
+        "review": " This is Awesome Hotel . I spend many times in this hotel. everything is nice here",
         "rating": "4.7 star"
     },
     {
         "id": 6,
-        "name": "vadaimma",
-        "review": "this is ossam resturant , i spend many times in this hotel , natural veiws. good behabiar all staff evrything is nice here",
+        "name": "hablu",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuIbv-7JSgC23hcGq8qDRBpFzdMBEw8urHdQ&usqp=CAU",
+        "review": "The location was great, walking distance from station and just a few mins into centre. Spartment was clean comfortable and stylish.",
         "rating": "5 star"
     }
 ]

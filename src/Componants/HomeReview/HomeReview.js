@@ -1,13 +1,13 @@
 import React from 'react';
 import './HomeReview.css'
 const HomeReview = (props) => {
-    const { name, rating, review } = props.review;
+    const { name, rating, review, image } = props.review;
 
     return (
         <div className='home-card'>
-            <h4>Name: {name}</h4>
-            <p>Review:{review}</p>
-            <p><small>Ratting:{rating}</small></p>
+            <p> <strong>Review:</strong> {review}</p>
+            <p> <strong>Ratting:</strong> <small>{rating}</small></p>
+            <p><img src={image} alt="" /> {name}</p>
 
         </div>
     );

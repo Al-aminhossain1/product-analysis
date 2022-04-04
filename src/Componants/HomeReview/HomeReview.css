@@ -5,3 +5,8 @@
     text-align: left;
     padding-left: 15px;
 }
+
+.home-card img {
+    width: 30px;
+    height: 30px;
+}

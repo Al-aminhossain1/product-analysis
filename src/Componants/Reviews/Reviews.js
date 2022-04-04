@@ -9,7 +9,7 @@ const Reviews = () => {
 
     return (
         <div >
-            <h1>this is Review Page!!</h1>
+            <h1>Our Customers Feedback!!</h1>
             <div className='reviews-container'>
                 {
                     review.map(reviewitem => <Review

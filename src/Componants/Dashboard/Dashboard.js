@@ -56,7 +56,7 @@ const Dashboard = () => {
         { month: 'May', revenue: 50900 },
         { month: 'Jun', revenue: 61000 },
         { month: 'Jul', revenue: 50055 },
-        { month: 'Aug', revenue: 54546 },
+
 
     ];
     return (
