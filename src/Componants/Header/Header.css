@@ -2,7 +2,13 @@
     margin-top: 40px;
 }
 
+.nav {
+    display: flex;
+    padding-left: 530px;
+}
+
 .header a {
+
     text-decoration: none;
     margin: 20px;
 }
